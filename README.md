@@ -12,7 +12,7 @@
       uses: actions/checkout@v4
 
     - name: 清理releases和workflows
-      uses: authon/delete-releases-workflows@main
+      uses: authon/Mine-delete-releases-workflows@main
       with:
         delete_releases: true
         delete_workflows: true
@@ -24,7 +24,7 @@
     使用说明：
 
     - name: 清理releases和workflows
-      uses: authon/delete-releases-workflows@main
+      uses: authon/Mine-delete-releases-workflows@main
       with:
         delete_releases: true                  清理releases开关，必须存在，如果不开就写false
         prerelease_option: all                 设置清理releases是否区分预发行版本
